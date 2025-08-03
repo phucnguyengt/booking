@@ -1,5 +1,5 @@
 // Thay thế URL này bằng URL Web App bạn đã deploy ở Bước 2
-const API_URL = 'https://script.google.com/macros/s/AKfycbwemlsJ442uz6M8TYewiYLgfkqh-78pZTOi1ZJJTok4VPV4u_nf9emSo1dVo8H-IR1M6Q/exec'; 
+const API_URL = 'https://script.google.com/macros/s/AKfycbx7UrC34BqtMH60PPT74OcNgAawK9sUNYxhpMu2d6s_BII3YOjGOcHMIj-VlNKX0OhWWw/exec'; 
 
 const bookingForm = document.getElementById('bookingForm');
 const formMessage = document.getElementById('formMessage');
