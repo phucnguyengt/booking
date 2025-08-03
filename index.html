@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Slot Chơi Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Đặt Lịch Chơi Game Cùng Idol</h1>
+        
+        <div class="booking-form">
+            <h2>Form Đặt Lịch</h2>
+            <form id="bookingForm">
+                <input type="text" id="nickname" placeholder="Tên của bạn" required>
+                <input type="datetime-local" id="startTime" required>
+                <input type="number" id="duration" placeholder="Số giờ muốn chơi" min="1" required>
+                <button type="submit">Đặt Chỗ</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+
+        <div class="queue">
+            <h2>Hàng Chờ Hiện Tại</h2>
+            <p>Bây giờ là: <span id="currentTime"></span></p>
+            <p id="myTurnMessage"></p>
+            <ul id="queueList">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
